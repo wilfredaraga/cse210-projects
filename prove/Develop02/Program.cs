@@ -29,6 +29,10 @@ class Program
                 Console.WriteLine(randomPrompt);
                 Console.Write("> ");
                 string answer = Console.ReadLine();
+                /* I added this code to ask what the user is feeling at the time he/she is writing in
+                the journal. I also added this to their entry and will save also in the file if they
+                choose to save their entry. It will also show to their journal if they choose to display
+                it. */
                 Console.Write("What are you feeling right now? ");
                 string feeling = Console.ReadLine();
 
